@@ -1,0 +1,12 @@
+.about-outer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10vh;
+}
+.video-style{
+    height: 331px;
+    width: 463px;
+}

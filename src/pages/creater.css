@@ -1,0 +1,21 @@
+.creater-outer {
+  display: flex;
+  flex-direction: row;
+}
+.creater-img-outer {
+  text-align: center;
+}
+.creater-img {
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+}
+.h3 {
+  color: #3ddd53;
+}
+@media only screen and (max-width: 900px) {
+  .creater-outer {
+    display: flex;
+    flex-direction: column;
+  }
+}

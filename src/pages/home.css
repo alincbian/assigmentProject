@@ -1,0 +1,79 @@
+.container-fluid {
+  /* background-color: #b49e3a; */
+  background: rgb(194, 195, 34);
+  background: linear-gradient(
+    0deg,
+    rgba(194, 195, 34, 1) 0%,
+    rgba(172, 201, 61, 1) 100%
+  );
+  color: white;
+}
+s custom-shape-divider-bottom-1601395945 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  overflow-x: hidden;
+}
+
+.custom-shape-divider-bottom-1601395945 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 0.9px);
+  height: 120px;
+}
+
+.custom-shape-divider-bottom-1601395945 .shape-fill {
+  fill: #c2c322;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #16a085 0%,
+    #f4d03f 51%,
+    #16a085 100%
+  );
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px ;
+  padding: 10px 30px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+         
+.btn-grad2 {
+    /* background-image: linear-gradient(to right, #3CA55C 0%, #B5AC49  51%, #3CA55C  100%); */
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px ;
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+  outline: 1px solid rgb(143, 142, 142);
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    
+  }
+ 
